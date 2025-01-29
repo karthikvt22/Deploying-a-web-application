@@ -65,13 +65,6 @@ You can access the following files for the web application hosted on S3:
 - **HTML File**: [web.html](https://hostingweb.s3.ap-south-1.amazonaws.com/web.html) — The main HTML file for the website.
 - **To-Do List Image**: [todolist.jpeg](https://hostingweb.s3.ap-south-1.amazonaws.com/todolist.jpeg) — An image related to the To-Do List feature of the website (in JPEG format).
 
-### 7. (Optional) Set Up a Custom Domain
-
-To use a custom domain (e.g., `www.example.com`), you need to:
-
-1. Create a CNAME record in your domain’s DNS settings that points to the S3 website endpoint.
-2. If using HTTPS, consider using AWS CloudFront for SSL.
-
 ## Troubleshooting
 
 - Ensure the **Index document** and **Error document** are set correctly.
