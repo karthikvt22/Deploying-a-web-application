@@ -70,4 +70,4 @@ To use a custom domain (e.g., `www.example.com`), you need to:
 
 ## Conclusion
 
-Your static website is now live on AWS S3! Enjoy hosting your content on one of the most reliable cloud platforms.
+Your static website is now live on AWS S3.
