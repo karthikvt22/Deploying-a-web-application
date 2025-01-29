@@ -43,12 +43,31 @@ This guide will walk you through the steps to host a static website using an Ama
 5. After enabling ACL, select all the contents in your S3 bucket.
 6. Click on **Actions** and choose **Make public using ACL**.
 7. Scroll up to the **Block public access** section in the same **Permissions** tab.
-6. Click on **Edit**.
-7. Disable **Block all public access** by unchecking the box. (Make sure you're aware of the risks associated with this action).
-8. Click **Save changes** to apply the permissions.
+8. Click on **Edit**.
+9. Disable **Block all public access** by unchecking the box. (Make sure you're aware of the risks associated with this action).
+10. Click **Save changes** to apply the permissions.
 
 ### 5. Access Your Static Website
 
 1. After enabling static website hosting, go to all the files uploaded in your bucket.
 2. Go to the `index.html` file in your S3 bucket, and find the **object URL** for the file you want to host.
 3. Copy the **object URL** and paste it in your browser to view your static website.
+
+For example, here's a link to a static web application hosted on an S3 bucket:
+[Static Website Hosted on S3](https://hostingweb.s3.ap-south-1.amazonaws.com/web.html)
+
+### 6. (Optional) Set Up a Custom Domain
+
+To use a custom domain (e.g., `www.example.com`), you need to:
+
+1. Create a CNAME record in your domain’s DNS settings that points to the S3 website endpoint.
+2. If using HTTPS, consider using AWS CloudFront for SSL.
+
+## Troubleshooting
+
+- Ensure the **Index document** and **Error document** are set correctly.
+- Double-check the S3 bucket permissions to ensure it's publicly accessible.
+
+## Conclusion
+
+Your static website is now live on AWS S3! Enjoy hosting your content on one of the most reliable cloud platforms.
