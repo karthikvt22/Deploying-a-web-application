@@ -63,7 +63,7 @@ You can access the following files for the web application hosted on S3:
 - **CSS File**: [public.css](https://hostingweb.s3.ap-south-1.amazonaws.com/public.css) — Contains the styles for the website.
 - **JavaScript File**: [script.js](https://hostingweb.s3.ap-south-1.amazonaws.com/script.js) — Contains the JavaScript functionality for the website.
 - **HTML File**: [web.html](https://hostingweb.s3.ap-south-1.amazonaws.com/web.html) — The main HTML file for the website.
-- **To-Do List Image**: [todo-image.jpg](https://hostingweb.s3.ap-south-1.amazonaws.com/todo-image.jpg) — An image related to the To-Do List feature of the website (in JPEG format).
+- **To-Do List Image**: [todolist.jpeg](https://hostingweb.s3.ap-south-1.amazonaws.com/todolist.jpeg) — An image related to the To-Do List feature of the website (in JPEG format).
 
 ### 7. (Optional) Set Up a Custom Domain
 
