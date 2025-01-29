@@ -34,23 +34,15 @@ This guide will walk you through the steps to host a static website using an Ama
 4. Set the **Index document** (typically `index.html`) and **Error document** (optional, typically `error.html`).
 5. Click **Save changes**.
 
-### 4. Set Bucket Policy for Public Access
+### 4. Set Bucket Permissions for Public Access
 
-To allow public access to the files, you need to set the appropriate permissions.
+1. In the **Permissions** tab of your S3 bucket, scroll down to the **Object ownership** section.
+2. Click on **Edit**.
+3. Enable **ACL (Access Control List)**.
+4. Check the acknowledgment box.
+5. Click **Save changes** to apply the permissions.
 
-1. Go to the **Permissions** tab in your S3 bucket.
-2. Click on **Bucket policy**.
-3. Add the following policy to allow public access to all files:
+### 5. Access Your Static Website
 
-   ```json
-   {
-     "Version": "2012-10-17",
-     "Statement": [
-       {
-         "Sid": "PublicReadGetObject",
-         "Effect": "Allow",
-         "Action": "s3:GetObject",
-         "Resource": "arn:aws:s3:::YOUR-BUCKET-NAME/*"
-       }
-     ]
-   }
+1. After enabling static website hosting, you will see an **Endpoint** URL under the Static Website Hosting section.
+2. Open the URL in your browser to view your static website.
