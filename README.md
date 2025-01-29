@@ -1,6 +1,6 @@
 # Hosting a Static Website on Amazon S3
 
-This guide will walk you through the steps to host a static website using an Amazon S3 bucket.
+This guide will help you host a static website on Amazon S3. In this case, the website is a **To-Do List web application**.
 
 ## Prerequisites
 
