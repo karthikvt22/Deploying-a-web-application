@@ -56,7 +56,16 @@ This guide will walk you through the steps to host a static website using an Ama
 For example, here's a link to a static web application hosted on an S3 bucket:
 [Static Website Hosted on S3](https://hostingweb.s3.ap-south-1.amazonaws.com/web.html)
 
-### 6. (Optional) Set Up a Custom Domain
+### 6. Reference Files in the Repository
+
+You can access the following files for the web application hosted on S3:
+
+- **CSS File**: [public.css](https://hostingweb.s3.ap-south-1.amazonaws.com/public.css) — Contains the styles for the website.
+- **JavaScript File**: [script.js](https://hostingweb.s3.ap-south-1.amazonaws.com/script.js) — Contains the JavaScript functionality for the website.
+- **HTML File**: [web.html](https://hostingweb.s3.ap-south-1.amazonaws.com/web.html) — The main HTML file for the website.
+- **To-Do List Image**: [todo-image.jpg](https://hostingweb.s3.ap-south-1.amazonaws.com/todo-image.jpg) — An image related to the To-Do List feature of the website (in JPEG format).
+
+### 7. (Optional) Set Up a Custom Domain
 
 To use a custom domain (e.g., `www.example.com`), you need to:
 
@@ -70,4 +79,4 @@ To use a custom domain (e.g., `www.example.com`), you need to:
 
 ## Conclusion
 
-Your static website is now live on AWS S3.
+Your static website is now live on AWS S3. 
