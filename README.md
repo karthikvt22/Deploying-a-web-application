@@ -40,9 +40,15 @@ This guide will walk you through the steps to host a static website using an Ama
 2. Click on **Edit**.
 3. Enable **ACL (Access Control List)**.
 4. Check the acknowledgment box.
-5. Click **Save changes** to apply the permissions.
+5. After enabling ACL, select all the contents in your S3 bucket.
+6. Click on **Actions** and choose **Make public using ACL**.
+7. Scroll up to the **Block public access** section in the same **Permissions** tab.
+6. Click on **Edit**.
+7. Disable **Block all public access** by unchecking the box. (Make sure you're aware of the risks associated with this action).
+8. Click **Save changes** to apply the permissions.
 
 ### 5. Access Your Static Website
 
-1. After enabling static website hosting, you will see an **Endpoint** URL under the Static Website Hosting section.
-2. Open the URL in your browser to view your static website.
+1. After enabling static website hosting, go to all the files uploaded in your bucket.
+2. Go to the `index.html` file in your S3 bucket, and find the **object URL** for the file you want to host.
+3. Copy the **object URL** and paste it in your browser to view your static website.
